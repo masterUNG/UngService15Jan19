@@ -17,13 +17,41 @@
                     <view key="view" contentMode="scaleToFill" id="qAH-lR-xOr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper2" translatesAutoresizingMaskIntoConstraints="NO" id="LYa-pI-JGY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5x-WF-4oF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.89538496732711792" green="0.27833324670791626" blue="0.49964731931686401" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="New Register" id="5mq-Bo-gbn">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="R17-GM-N3E">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="G0V-3z-WId"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="N5x-WF-4oF" firstAttribute="trailing" secondItem="hdT-JK-Ivg" secondAttribute="trailing" id="Elp-k5-ukB"/>
+                            <constraint firstItem="LYa-pI-JGY" firstAttribute="bottom" secondItem="hdT-JK-Ivg" secondAttribute="bottom" id="Ih2-Im-zXp"/>
+                            <constraint firstItem="LYa-pI-JGY" firstAttribute="top" secondItem="hdT-JK-Ivg" secondAttribute="top" id="JCQ-Sp-PV5"/>
+                            <constraint firstItem="LYa-pI-JGY" firstAttribute="leading" secondItem="hdT-JK-Ivg" secondAttribute="leading" id="MWp-rC-hHx"/>
+                            <constraint firstItem="N5x-WF-4oF" firstAttribute="leading" secondItem="hdT-JK-Ivg" secondAttribute="leading" id="Qcx-P7-1kf"/>
+                            <constraint firstItem="LYa-pI-JGY" firstAttribute="trailing" secondItem="hdT-JK-Ivg" secondAttribute="trailing" id="XYT-jV-N4o"/>
+                            <constraint firstItem="N5x-WF-4oF" firstAttribute="top" secondItem="hdT-JK-Ivg" secondAttribute="top" id="xFz-lf-aNu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hdT-JK-Ivg"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ArM-LD-xl3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-867" y="21"/>
+            <point key="canvasLocation" x="-868.11594202898561" y="20.758928571428569"/>
         </scene>
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
@@ -112,7 +140,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ArrowBack" width="72" height="72"/>
         <image name="Logo" width="170.5" height="170.5"/>
         <image name="Wallpaper" width="1023.5" height="1390.5"/>
+        <image name="Wallpaper2" width="333" height="333"/>
     </resources>
 </document>
