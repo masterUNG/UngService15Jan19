@@ -31,7 +31,74 @@ class ViewController: UIViewController {
         let urlString: String = myConstant.getUrlGetUser(user: user)
         print("urlString ==> \(urlString)")
         
+        let urlObject = URL(string: urlString)
+        let requestObject = NSMutableURLRequest(url: urlObject!)
+        let task = URLSession.shared.dataTask(with: requestObject as URLRequest) {data, response, error in
+            
+            if error != nil {
+                print("Have Error")
+            } else {
+                
+                if let testResult = data {
+                    
+                    let canReadAble = NSString(data: testResult, encoding: String.Encoding.utf8.rawValue)
+                    print("canReadAble ==> \(String(describing: canReadAble))")
+                    DispatchQueue.main.async {
+                        self.convertStringToDictionry(rawString: canReadAble! as String)
+                    }
+                    
+                }
+            }
+        }   // end Task
+        task.resume()
+    }
+    
+    func convertStringToDictionry(rawString: String) -> Void {
+        print("rawString ==> \(rawString)")
         
+        if rawString == "null" {
+            myAlert(title: "User False", message: "No \(user!) in my Database")
+        } else {
+            
+            let json: String = slipWord(rawString: rawString)
+            print("json ==> \(json)")
+            var myDictionary: NSDictionary?
+            
+            
+            if let testJson = json.data(using: String.Encoding.utf8) {
+                
+                do {
+                    
+                    myDictionary = try JSONSerialization.jsonObject(with: testJson, options: []) as? [String: AnyObject] as NSDictionary?
+                    print("myDictionary ==> \(String(describing: myDictionary))")
+                    
+                    if let testDictionary = myDictionary {
+                        
+                        print("testDict ==> \(testDictionary)")
+                        let truePassword: String = testDictionary["Password"]! as! String
+                        if password! == truePassword {
+//                            Success Login
+                            
+                        } else {
+                            myAlert(title: "Password False", message: "Please Try Again Password False")
+                        }
+                        
+                        
+                        
+                    }
+                } catch let error as NSError {
+                    print("Have Error \(error)")
+                }
+                
+                
+            }   // if
+        }   // if
+    }   // convert
+    
+    func slipWord(rawString: String) -> String {
+        var results = rawString.components(separatedBy: "[")
+        var result2s = results[1].components(separatedBy: "]")
+        return result2s[0]
     }
     
     func myAlert(title: String, message: String) -> Void {
