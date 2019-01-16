@@ -196,13 +196,94 @@
                     <view key="view" contentMode="scaleToFill" id="bpW-z9-nTR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDP-6U-ZZl">
+                                <rect key="frame" x="32" y="86" width="350" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4vb-gv-NwC"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="8YA-U8-5Nw"/>
+                                    <constraint firstAttribute="width" constant="350" id="kDW-pq-6uq"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="dRr-BM-s9M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMF-uf-AP5">
+                                <rect key="frame" x="42" y="174" width="330" height="80"/>
+                                <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="4EH-XW-slv"/>
+                                    <constraint firstAttribute="height" constant="80" id="MXG-dI-cMX"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="iz1-Z7-VLA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5P-Ql-0wT">
+                                <rect key="frame" x="52" y="262" width="310" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="5Uj-mz-4u2"/>
+                                    <constraint firstAttribute="height" constant="80" id="pda-gI-ohL"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgI-Yx-rQO">
+                                <rect key="frame" x="62" y="350" width="290" height="80"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="290" id="FzF-un-o5W"/>
+                                    <constraint firstAttribute="height" constant="80" id="gnM-ta-vTt"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdS-zt-Qsc">
+                                <rect key="frame" x="72" y="438" width="270" height="80"/>
+                                <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="8ce-Cb-8wH"/>
+                                    <constraint firstAttribute="height" constant="80" id="BFm-UL-aFv"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfG-5q-zPX">
+                                <rect key="frame" x="82" y="526" width="250" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="lA7-2J-DA7"/>
+                                    <constraint firstAttribute="width" constant="250" id="teI-9j-BJf"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lp-mZ-85D">
+                                <rect key="frame" x="92" y="614" width="230" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Hea-Q4-qRh"/>
+                                    <constraint firstAttribute="width" constant="230" id="Rif-Am-Hr4"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qDP-6U-ZZl" firstAttribute="top" secondItem="bII-Mh-bVk" secondAttribute="top" constant="42" id="9jQ-fk-MqO"/>
+                            <constraint firstItem="vdS-zt-Qsc" firstAttribute="top" secondItem="cgI-Yx-rQO" secondAttribute="bottom" constant="8" id="Fyf-O2-pzn"/>
+                            <constraint firstItem="H5P-Ql-0wT" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="YuP-jh-nkB"/>
+                            <constraint firstItem="H5P-Ql-0wT" firstAttribute="top" secondItem="XMF-uf-AP5" secondAttribute="bottom" constant="8" id="ZO1-7x-jvR"/>
+                            <constraint firstItem="vfG-5q-zPX" firstAttribute="top" secondItem="vdS-zt-Qsc" secondAttribute="bottom" constant="8" id="bG4-Ei-h1Y"/>
+                            <constraint firstItem="vdS-zt-Qsc" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="bch-NY-h0C"/>
+                            <constraint firstItem="XMF-uf-AP5" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="kDN-AF-EAV"/>
+                            <constraint firstItem="1lp-mZ-85D" firstAttribute="top" secondItem="vfG-5q-zPX" secondAttribute="bottom" constant="8" id="lNW-ja-gmK"/>
+                            <constraint firstItem="XMF-uf-AP5" firstAttribute="top" secondItem="qDP-6U-ZZl" secondAttribute="bottom" constant="8" id="o35-h3-MaS"/>
+                            <constraint firstItem="vfG-5q-zPX" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="oVM-fc-3sz"/>
+                            <constraint firstItem="cgI-Yx-rQO" firstAttribute="top" secondItem="H5P-Ql-0wT" secondAttribute="bottom" constant="8" id="wQ1-TH-3lO"/>
+                            <constraint firstItem="qDP-6U-ZZl" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="xla-IX-8Em"/>
+                            <constraint firstItem="1lp-mZ-85D" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="y9q-b3-Kqz"/>
+                            <constraint firstItem="cgI-Yx-rQO" firstAttribute="centerX" secondItem="bpW-z9-nTR" secondAttribute="centerX" id="zHX-Yv-86Y"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bII-Mh-bVk"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GRm-N5-ixw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="948" y="21"/>
+            <point key="canvasLocation" x="947.82608695652186" y="20.758928571428569"/>
         </scene>
     </scenes>
     <resources>
