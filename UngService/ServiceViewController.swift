@@ -18,6 +18,9 @@ class ServiceViewController: UIViewController {
     
     
     @IBAction func myButton(_ sender: UIButton) {
+        
+        print("Tag ==> \(sender.tag)")
+        
     }
     
 

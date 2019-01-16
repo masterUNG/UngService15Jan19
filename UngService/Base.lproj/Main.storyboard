@@ -227,6 +227,9 @@
                                     <constraint firstAttribute="width" constant="310" id="5Uj-mz-4u2"/>
                                     <constraint firstAttribute="height" constant="80" id="pda-gI-ohL"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="gxE-4d-NkY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgI-Yx-rQO">
                                 <rect key="frame" x="62" y="350" width="290" height="80"/>
@@ -235,6 +238,9 @@
                                     <constraint firstAttribute="width" constant="290" id="FzF-un-o5W"/>
                                     <constraint firstAttribute="height" constant="80" id="gnM-ta-vTt"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="dSk-ji-4Bd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdS-zt-Qsc">
                                 <rect key="frame" x="72" y="438" width="270" height="80"/>
@@ -243,6 +249,9 @@
                                     <constraint firstAttribute="width" constant="270" id="8ce-Cb-8wH"/>
                                     <constraint firstAttribute="height" constant="80" id="BFm-UL-aFv"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="LNK-WN-nfR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfG-5q-zPX">
                                 <rect key="frame" x="82" y="526" width="250" height="80"/>
@@ -251,6 +260,9 @@
                                     <constraint firstAttribute="height" constant="80" id="lA7-2J-DA7"/>
                                     <constraint firstAttribute="width" constant="250" id="teI-9j-BJf"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="Vee-cp-vkP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lp-mZ-85D">
                                 <rect key="frame" x="92" y="614" width="230" height="80"/>
@@ -259,6 +271,9 @@
                                     <constraint firstAttribute="height" constant="80" id="Hea-Q4-qRh"/>
                                     <constraint firstAttribute="width" constant="230" id="Rif-Am-Hr4"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="9Cx-8J-olc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
