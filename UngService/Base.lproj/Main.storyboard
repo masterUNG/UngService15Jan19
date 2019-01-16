@@ -32,18 +32,52 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="G0V-3z-WId"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="5pL-wO-5BL"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="elh-5a-0j8">
+                                <rect key="frame" x="82" y="156" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="5tQ-2I-VpW"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KgD-43-Rl8">
+                                <rect key="frame" x="82" y="194" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="db2-rT-Bf7"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NKo-VN-PhM">
+                                <rect key="frame" x="82" y="232" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="ih9-PD-l2Y"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="N5x-WF-4oF" firstAttribute="trailing" secondItem="hdT-JK-Ivg" secondAttribute="trailing" id="Elp-k5-ukB"/>
                             <constraint firstItem="LYa-pI-JGY" firstAttribute="bottom" secondItem="hdT-JK-Ivg" secondAttribute="bottom" id="Ih2-Im-zXp"/>
+                            <constraint firstItem="KgD-43-Rl8" firstAttribute="top" secondItem="elh-5a-0j8" secondAttribute="bottom" constant="8" id="JBp-dq-Z5l"/>
                             <constraint firstItem="LYa-pI-JGY" firstAttribute="top" secondItem="hdT-JK-Ivg" secondAttribute="top" id="JCQ-Sp-PV5"/>
                             <constraint firstItem="LYa-pI-JGY" firstAttribute="leading" secondItem="hdT-JK-Ivg" secondAttribute="leading" id="MWp-rC-hHx"/>
                             <constraint firstItem="N5x-WF-4oF" firstAttribute="leading" secondItem="hdT-JK-Ivg" secondAttribute="leading" id="Qcx-P7-1kf"/>
+                            <constraint firstItem="NKo-VN-PhM" firstAttribute="centerX" secondItem="qAH-lR-xOr" secondAttribute="centerX" id="RdK-nj-1HH"/>
                             <constraint firstItem="LYa-pI-JGY" firstAttribute="trailing" secondItem="hdT-JK-Ivg" secondAttribute="trailing" id="XYT-jV-N4o"/>
+                            <constraint firstItem="elh-5a-0j8" firstAttribute="top" secondItem="N5x-WF-4oF" secondAttribute="bottom" constant="68" id="fRJ-tC-diC"/>
+                            <constraint firstItem="NKo-VN-PhM" firstAttribute="top" secondItem="KgD-43-Rl8" secondAttribute="bottom" constant="8" id="ptb-Er-7uQ"/>
+                            <constraint firstItem="elh-5a-0j8" firstAttribute="centerX" secondItem="qAH-lR-xOr" secondAttribute="centerX" id="uhg-Vl-rZc"/>
+                            <constraint firstItem="KgD-43-Rl8" firstAttribute="centerX" secondItem="qAH-lR-xOr" secondAttribute="centerX" id="vct-5A-4I0"/>
                             <constraint firstItem="N5x-WF-4oF" firstAttribute="top" secondItem="hdT-JK-Ivg" secondAttribute="top" id="xFz-lf-aNu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hdT-JK-Ivg"/>
@@ -141,6 +175,7 @@
     </scenes>
     <resources>
         <image name="ArrowBack" width="72" height="72"/>
+        <image name="CloudUpload" width="72" height="72"/>
         <image name="Logo" width="170.5" height="170.5"/>
         <image name="Wallpaper" width="1023.5" height="1390.5"/>
         <image name="Wallpaper2" width="333" height="333"/>
