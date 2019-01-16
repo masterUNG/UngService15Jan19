@@ -206,7 +206,7 @@
                                     <constraint firstAttribute="width" constant="350" id="kDW-pq-6uq"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="dRr-BM-s9M"/>
+                                    <action selector="myButton:" destination="ozA-db-Wp9" eventType="touchUpInside" id="FV9-RU-cHn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMF-uf-AP5">

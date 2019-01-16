@@ -13,6 +13,13 @@
 		C407008B21EDBA7700D9AC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C407008A21EDBA7700D9AC20 /* Assets.xcassets */; };
 		C407008E21EDBA7700D9AC20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C407008C21EDBA7700D9AC20 /* LaunchScreen.storyboard */; };
 		C407009621EDCF3D00D9AC20 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C407009521EDCF3D00D9AC20 /* RegisterViewController.swift */; };
+		C4598B9C21EFDFDF00A28D63 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9521EFDFDF00A28D63 /* note6.wav */; };
+		C4598B9D21EFDFDF00A28D63 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9621EFDFDF00A28D63 /* note5.wav */; };
+		C4598B9E21EFDFDF00A28D63 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9721EFDFDF00A28D63 /* note7.wav */; };
+		C4598B9F21EFDFDF00A28D63 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9821EFDFDF00A28D63 /* note2.wav */; };
+		C4598BA021EFDFDF00A28D63 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9921EFDFDF00A28D63 /* note3.wav */; };
+		C4598BA121EFDFDF00A28D63 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9A21EFDFDF00A28D63 /* note1.wav */; };
+		C4598BA221EFDFDF00A28D63 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4598B9B21EFDFDF00A28D63 /* note4.wav */; };
 		C4903F6221EEE4400048B77F /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4903F6121EEE4400048B77F /* MyConstant.swift */; };
 		C4903F6421EF24F30048B77F /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4903F6321EF24F30048B77F /* ServiceViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +33,13 @@
 		C407008D21EDBA7700D9AC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C407008F21EDBA7700D9AC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C407009521EDCF3D00D9AC20 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C4598B9521EFDFDF00A28D63 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		C4598B9621EFDFDF00A28D63 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		C4598B9721EFDFDF00A28D63 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		C4598B9821EFDFDF00A28D63 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		C4598B9921EFDFDF00A28D63 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		C4598B9A21EFDFDF00A28D63 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		C4598B9B21EFDFDF00A28D63 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
 		C4903F6121EEE4400048B77F /* MyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
 		C4903F6321EF24F30048B77F /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +77,7 @@
 				C407008321EDBA7400D9AC20 /* AppDelegate.swift */,
 				C407008521EDBA7400D9AC20 /* ViewController.swift */,
 				C407009521EDCF3D00D9AC20 /* RegisterViewController.swift */,
+				C4598BA321EFDFF500A28D63 /* note */,
 				C4903F6121EEE4400048B77F /* MyConstant.swift */,
 				C407008721EDBA7400D9AC20 /* Main.storyboard */,
 				C4903F6321EF24F30048B77F /* ServiceViewController.swift */,
@@ -71,6 +86,20 @@
 				C407008F21EDBA7700D9AC20 /* Info.plist */,
 			);
 			path = UngService;
+			sourceTree = "<group>";
+		};
+		C4598BA321EFDFF500A28D63 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				C4598B9A21EFDFDF00A28D63 /* note1.wav */,
+				C4598B9821EFDFDF00A28D63 /* note2.wav */,
+				C4598B9921EFDFDF00A28D63 /* note3.wav */,
+				C4598B9B21EFDFDF00A28D63 /* note4.wav */,
+				C4598B9621EFDFDF00A28D63 /* note5.wav */,
+				C4598B9521EFDFDF00A28D63 /* note6.wav */,
+				C4598B9721EFDFDF00A28D63 /* note7.wav */,
+			);
+			name = note;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +160,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4598BA121EFDFDF00A28D63 /* note1.wav in Resources */,
+				C4598B9E21EFDFDF00A28D63 /* note7.wav in Resources */,
+				C4598B9F21EFDFDF00A28D63 /* note2.wav in Resources */,
+				C4598B9D21EFDFDF00A28D63 /* note5.wav in Resources */,
 				C407008E21EDBA7700D9AC20 /* LaunchScreen.storyboard in Resources */,
+				C4598B9C21EFDFDF00A28D63 /* note6.wav in Resources */,
 				C407008B21EDBA7700D9AC20 /* Assets.xcassets in Resources */,
+				C4598BA221EFDFDF00A28D63 /* note4.wav in Resources */,
+				C4598BA021EFDFDF00A28D63 /* note3.wav in Resources */,
 				C407008921EDBA7400D9AC20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
