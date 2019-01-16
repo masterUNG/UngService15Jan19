@@ -29,7 +29,7 @@
                                     <navigationItem title="New Register" id="5mq-Bo-gbn">
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="ArrowBack" id="R17-GM-N3E">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="G0V-3z-WId"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackMain" id="G0V-3z-WId"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="5pL-wO-5BL">
