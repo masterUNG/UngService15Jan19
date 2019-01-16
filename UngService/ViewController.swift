@@ -78,6 +78,7 @@ class ViewController: UIViewController {
                         let truePassword: String = testDictionary["Password"]! as! String
                         if password! == truePassword {
 //                            Success Login
+                            performSegue(withIdentifier: "GoToService", sender: self)
                             
                         } else {
                             myAlert(title: "Password False", message: "Please Try Again Password False")

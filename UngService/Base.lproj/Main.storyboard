@@ -182,11 +182,27 @@
                     <connections>
                         <outlet property="passwordTextField" destination="GFa-Uj-MP4" id="kzk-eS-QCQ"/>
                         <outlet property="userTextField" destination="Agj-ef-T9P" id="2rA-jB-xrf"/>
+                        <segue destination="ozA-db-Wp9" kind="show" identifier="GoToService" id="dfc-ZG-u2T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+        <!--Service-->
+        <scene sceneID="k8u-d6-sdm">
+            <objects>
+                <viewController title="Service" id="ozA-db-Wp9" customClass="ServiceViewController" customModule="UngService" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bpW-z9-nTR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bII-Mh-bVk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GRm-N5-ixw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="21"/>
         </scene>
     </scenes>
     <resources>

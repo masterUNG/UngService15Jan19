@@ -14,6 +14,7 @@
 		C407008E21EDBA7700D9AC20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C407008C21EDBA7700D9AC20 /* LaunchScreen.storyboard */; };
 		C407009621EDCF3D00D9AC20 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C407009521EDCF3D00D9AC20 /* RegisterViewController.swift */; };
 		C4903F6221EEE4400048B77F /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4903F6121EEE4400048B77F /* MyConstant.swift */; };
+		C4903F6421EF24F30048B77F /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4903F6321EF24F30048B77F /* ServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C407008F21EDBA7700D9AC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C407009521EDCF3D00D9AC20 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C4903F6121EEE4400048B77F /* MyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
+		C4903F6321EF24F30048B77F /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C407009521EDCF3D00D9AC20 /* RegisterViewController.swift */,
 				C4903F6121EEE4400048B77F /* MyConstant.swift */,
 				C407008721EDBA7400D9AC20 /* Main.storyboard */,
+				C4903F6321EF24F30048B77F /* ServiceViewController.swift */,
 				C407008A21EDBA7700D9AC20 /* Assets.xcassets */,
 				C407008C21EDBA7700D9AC20 /* LaunchScreen.storyboard */,
 				C407008F21EDBA7700D9AC20 /* Info.plist */,
@@ -144,6 +147,7 @@
 				C407009621EDCF3D00D9AC20 /* RegisterViewController.swift in Sources */,
 				C407008621EDBA7400D9AC20 /* ViewController.swift in Sources */,
 				C407008421EDBA7400D9AC20 /* AppDelegate.swift in Sources */,
+				C4903F6421EF24F30048B77F /* ServiceViewController.swift in Sources */,
 				C4903F6221EEE4400048B77F /* MyConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
